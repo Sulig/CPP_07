@@ -6,7 +6,7 @@
 #    By: sadoming <sadoming@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/10 17:01:41 by sadoming          #+#    #+#              #
-#    Updated: 2025/05/06 20:00:31 by sadoming         ###   ########.fr        #
+#    Updated: 2025/05/07 17:32:47 by sadoming         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,14 +33,14 @@ RG	:=	\033[1;32m
 # Directories:
 
 # SRC DIR
-SRC_DIR		:=	./src/
-INC_DIR		:=	$(SRC_DIR)inc
+SRC_DIR		:=	./
+INC_DIR		:=	./
 OBJ_DIR		:=	./obj
 # ------------------- #
 # Sources:
 MAK	:= Makefile
-HDR	:= $(INC_DIR)/ # Headers
 
+HDR		:= whatever.hpp
 SRC_SRC := main.cpp
 
 SRC := $(addprefix $(SRC_DIR), $(SRC_SRC))
