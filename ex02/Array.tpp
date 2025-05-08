@@ -1,20 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   Array.tpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sadoming <sadoming@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/08 18:01:55 by sadoming          #+#    #+#             */
-/*   Updated: 2025/05/08 18:34:34 by sadoming         ###   ########.fr       */
+/*   Created: 2025/05/08 18:28:38 by sadoming          #+#    #+#             */
+/*   Updated: 2025/05/08 20:13:24 by sadoming         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Array.hpp"
-#include <string>
+# include <stdexcept>
+# include "Array.hpp"
 
-int	main()
+Array::Array()
 {
 
-	return (0);
 }
