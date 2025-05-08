@@ -6,7 +6,7 @@
 /*   By: sadoming <sadoming@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 17:33:08 by sadoming          #+#    #+#             */
-/*   Updated: 2025/05/07 19:21:53 by sadoming         ###   ########.fr       */
+/*   Updated: 2025/05/08 18:37:26 by sadoming         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include <iostream>
 
-template	<typename T>
+template<typename T>
 void	swap(T& a, T& b)
 {
 	T	c = a;
@@ -23,7 +23,7 @@ void	swap(T& a, T& b)
 	b = c;
 }
 
-template	<typename T>
+template<typename T>
 T	max(T a, T b)
 {
 	if (a > b)
@@ -32,7 +32,7 @@ T	max(T a, T b)
 		return (b);
 }
 
-template	<typename T>
+template<typename T>
 T	min(T a, T b)
 {
 	if (a < b)
