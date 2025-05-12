@@ -6,7 +6,7 @@
 #    By: sadoming <sadoming@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/10 17:01:41 by sadoming          #+#    #+#              #
-#    Updated: 2025/05/08 17:54:20 by sadoming         ###   ########.fr        #
+#    Updated: 2025/05/12 18:53:58 by sadoming         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,7 +40,7 @@ OBJ_DIR		:=	./obj
 # Sources:
 MAK	:= Makefile
 
-HDR		:= array.hpp
+HDR		:= Array.hpp
 SRC_SRC := main.cpp
 
 SRC := $(addprefix $(SRC_DIR), $(SRC_SRC))
